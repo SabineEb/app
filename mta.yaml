@@ -40,7 +40,7 @@ modules:
       memory: 512M
       disk-quota: 1024M
     requires:
-      - name: app-dest
+      - name: srv-api
       - name: app-dest
       - name: app-db
     provides:
